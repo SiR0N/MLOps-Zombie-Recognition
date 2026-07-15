@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# MLflow (Base de datos y logs de experimentos)
+mlruns/
+mlflow.db
+mlflow.sqlite
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Notebooks (Opcional: puedes borrarlos si prefieres no versionar los .ipynb)
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
